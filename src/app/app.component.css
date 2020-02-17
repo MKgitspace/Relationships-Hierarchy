@@ -1,0 +1,28 @@
+.containor
+{
+    width:90%;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    horizontal-align:center;
+    vertical-align: middle;
+}
+.h2
+{
+    font-style: italic;
+    color:green;
+    text-align: center;
+
+}
+.login-Containor
+{
+    margin: auto;
+    height: 70%;
+    width: 30%;
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 25px;
+    scrollbar-shadow-color: gray;
+    horizontal-align:center;
+    vertical-align: middle;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      Parent Component
+      <div>
+        <button class="btn btn-danger" (click)="parentFireEvent()">FireEvent</button>
+      </div>
+      Child Message....
+      {{parentMessage}}
+    </div>
+    <div class="col">
+      <app-child (Fromchild)=recevied($event)></app-child>
+    </div>
+  </div>
+</div>
